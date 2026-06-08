@@ -13,6 +13,6 @@ class PostResponse(PostBase):
     model_config = ConfigDict(from_attributes=True)
 
     id: int
-    data_posted: str
+    date_posted: str
     
 
