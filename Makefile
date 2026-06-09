@@ -6,4 +6,4 @@ install:
 
 dev:
 	@echo "Starting FastAPI Development Server..."
-	fastapi dev main.py --host 127.0.0.1 --port 8000
+	fastapi dev main.py --host 10.11.122.14 --port 8000
